@@ -1,0 +1,31 @@
+# Автоматическая нормализация переносов строк
+* text=auto
+
+# Linux / macOS скрипты — всегда LF (Unix)
+*.sh   text eol=lf
+*.bash text eol=lf
+
+# Windows скрипты — всегда CRLF
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+
+# Конфиги и текстовые файлы — LF
+*.md   text eol=lf
+*.txt  text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+
+# Бинарники — не трогать вообще
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.webp binary
+*.bmp  binary
+*.gif  binary
+*.ico  binary
+*.zip  binary
+*.tar  binary
+*.gz   binary
+*.7z   binary
