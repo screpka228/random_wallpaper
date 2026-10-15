@@ -1,0 +1,13 @@
+# Пользовательские обои — у каждого свои, в репу не летят
+wallpapers/*
+!wallpapers/.gitkeep
+
+# Лог с HWID — не публикуем
+wallpaper-log.txt
+
+# Временные файлы
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
